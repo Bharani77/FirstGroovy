@@ -5,7 +5,7 @@ pipeline {
       steps {
         parallel(
           "ensureMaven": {
-            tool(name: 'JDK', type: '1.7')
+            tool 'Maven3.3'
             
           },
           "cleanWorkspace": {
