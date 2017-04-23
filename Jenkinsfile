@@ -9,7 +9,7 @@ pipeline {
             
           },
           "cleanWorkspace": {
-            sh 'rm -rf .*'
+            sh 'rm -rf *'
             
           }
         )
